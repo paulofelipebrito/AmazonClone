@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import {BiMap} from 'react-icons/bi'
 
-export default function NavSuperior(){
+export default function UpperNav(){
   return(
     <div className="flex bg-darkblue-600 text-sm px-2 py-1 items-center">
       <div className="address-container">

@@ -3,9 +3,9 @@ import {IoMdArrowDropdown} from 'react-icons/io'
 import {BsCart} from 'react-icons/bs'
 
 import Logo from '../../assets/img/amazon_logo.png'
-import FormHeader from './FormHeader/FormHeader';
-import NavSuperior from './Nav/NavSuperior';
-import NavInferior from './Nav/NavInferior';
+import FormHeader from './FormHeader/FormHeader'; 
+import UpperNav from './Nav/UpperNav';
+import BottomNav from './Nav/BottomNav';
 
 export default function Header(){
   return(
@@ -40,8 +40,8 @@ export default function Header(){
             <span className="hidden md:flex text-xs font-extrabold">Carrinho</span>
           </div>
         </div>
-        <NavSuperior />
-        <NavInferior />
+        <UpperNav />
+        <BottomNav />
 
       </div>
     </header>

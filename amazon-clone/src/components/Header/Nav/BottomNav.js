@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import {IoIosArrowBack} from 'react-icons/io'
 
-export default function NavInferior(){
+export default function BottomNav(){
   return(
     <div className="flex text-black px-4 text-xs border-b border-gray-300 bg-gray-100 pt-1">
       <a href="#" className="flex items-center md:hidden py-2 font-bold">
