@@ -4,6 +4,8 @@ import {BsCart} from 'react-icons/bs'
 
 import Logo from '../../assets/img/amazon_logo.png'
 import FormHeader from './FormHeader/FormHeader';
+import NavSuperior from './Nav/NavSuperior';
+import NavInferior from './Nav/NavInferior';
 
 export default function Header(){
   return(
@@ -38,6 +40,9 @@ export default function Header(){
             <span className="hidden md:flex text-xs font-extrabold">Carrinho</span>
           </div>
         </div>
+        <NavSuperior />
+        <NavInferior />
+
       </div>
     </header>
   );
