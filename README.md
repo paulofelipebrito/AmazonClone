@@ -15,6 +15,7 @@ Welcome to the _GitHub repository_ of my **Amazon Clone** project! Here you can 
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="amazon" title="#amazon" src="./src/assets/demo.gif" > 
+  <img alt="amazon1" title="#amazon1" src="./src/assets/demo1.gif" > 
 
 </p>
 </div>
